@@ -1,4 +1,3 @@
-<script>
     if (localStorage.getItem("Region") === null) {
         show_popup();
     }
@@ -50,4 +49,3 @@
         hide_popup();
         location.reload();
     });
-</script>
