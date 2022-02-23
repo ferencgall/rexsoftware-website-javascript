@@ -53,3 +53,20 @@
         hide_popup();
         location.reload();
     });
+
+    var region = localStorage.getItem("Region");
+    if (region === "AU") {
+     document.getElementById("region-text").innerHTML = "Australia"
+    }
+    if (region === "UK") {
+     document.getElementById("region-text").innerHTML = "United Kingdom"
+    }
+    if (region === "NZ") {
+     document.getElementById("region-text").innerHTML = "New Zealand"
+    }
+    if (region === "Global") {
+     document.getElementById("region-text").innerHTML = "Global"
+    }
+    $("#region-button").click(function() {
+            show_popup();
+        });
