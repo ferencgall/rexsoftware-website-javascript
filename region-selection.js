@@ -15,22 +15,26 @@
     $("#au-button").click(function() {
         localStorage.setItem("Region", "AU");
         hide_popup();
+        document.getElementById("region-text").innerHTML = "Australia";
     });
 
     $("#nz-button").click(function() {
         localStorage.setItem("Region", "NZ");
         hide_popup();
+        document.getElementById("region-text").innerHTML = "New Zealand";
     });
 
     $("#uk-button").click(function() {
         localStorage.setItem("Region", "UK");
         hide_popup();
+        document.getElementById("region-text").innerHTML = "United Kingdom";
         location.reload();
     });
 
     $("#global-button").click(function() {
         localStorage.setItem("Region", "Global");
         hide_popup();
+        document.getElementById("region-text").innerHTML = "Global";
         location.reload();
     });
 
