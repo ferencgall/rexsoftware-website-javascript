@@ -28,7 +28,7 @@ else {
 //Listen for button click relevant to each region and execute the function to then save this region
 //Desktop
 //Australia Selection
-$("#au-button,#au-botton-mobile").click(function() {
+$("#au-button,#au-button-mobile").click(function() {
     region = "Australia"
     setRegion(region);
 });
