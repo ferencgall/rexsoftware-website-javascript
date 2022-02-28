@@ -26,24 +26,24 @@ else {
 }
 
 //Listen for button click relevant to each region and execute the function to then save this region
-
+//Desktop
 //Australia Selection
-$("#au-button").click(function() {
+$("#au-button,#au-botton-mobile").click(function() {
     region = "Australia"
     setRegion(region);
 });
 //New Zealand Selection
-$("#nz-button").click(function() {
+$("#nz-button,#nz-button-mobile").click(function() {
     region = "New Zealand"
     setRegion(region);
 });
 //United Kingdom Selection
-$("#uk-button").click(function() {
+$("#uk-button,#uk-button-mobile").click(function() {
     region = "United Kingdom"
     setRegion(region);
 });
 //Global Selection
-$("#global-button").click(function() {
+$("#global-button,#global-button-mobile").click(function() {
     region = "Global"
     setRegion(region);
 });
