@@ -16,6 +16,7 @@ const searchClient = algoliasearch('JV9Y0EKVBB', '924c91304a4d362b7f5f82d3d18c92
       container: '#searchbox',
       showReset: true, // Optional: Hides the reset button when the search box is empty
       autofocus: false, // Prevents autofocus on the search box
+      placeholder: 'Search...',
     }),
     instantsearch.widgets.hits({
       container: '#hits',
